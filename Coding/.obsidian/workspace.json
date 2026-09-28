@@ -1,0 +1,269 @@
+{
+  "main": {
+    "id": "959ee6d15a46d592",
+    "type": "split",
+    "children": [
+      {
+        "id": "20d4fda20a114f80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15d8e9dd545406ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "DevOps"
+            }
+          },
+          {
+            "id": "150b74fcb0cc3dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fieldnotes.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Fieldnotes"
+            }
+          },
+          {
+            "id": "6e8ee7d361321ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Ansible"
+            }
+          },
+          {
+            "id": "d2e157b43dc9e9bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello, World!.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Hello, World!"
+            }
+          },
+          {
+            "id": "57f21ee18ad6807c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Machine Learning"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b13144c26960f26",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c121e22649d0f65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "681ddae4af8e2e2e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c1cba690b58e751b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b6f7f69d9c7572b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6b0aa29b32c21ca4",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b9f8a659a0ee063",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f50b5c6d277a788",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "65b770170fc77256",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "57683e9bc9ead015",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "162c414b870bb156",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "57f21ee18ad6807c",
+  "lastOpenFiles": [
+    "Ansible.md",
+    "Machine Learning.md",
+    "Hello, World!.md",
+    "DevOps.md",
+    "Fieldnotes.md",
+    "Docker.md",
+    "Docker Composition.md",
+    "Vim motions.md",
+    "Untitled 3.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Untitled 2.base",
+    "Webpack.md",
+    "DOM Manipulation.md",
+    "Import and Export.md",
+    "JavaScript.md",
+    "Git Merge.md",
+    "Factory Functions.md",
+    "Dialog Boxes.md",
+    "Forms.md",
+    "Objects.md",
+    "CSS.md",
+    "grid.md",
+    "Scope and Closure.md",
+    "GitHub.md",
+    "npm.md",
+    "wepb.md",
+    "HTML.md",
+    "Git.md",
+    "Vim.md",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,15 @@
+/* Custom color and weight for Bold text */
+.cm-strong, 
+strong, 
+b {
+  color: #e06c75;             /* Changes bold text to a distinct coral/red */
+  font-weight: 700;
+}
+
+/* Custom color and style for Italic text */
+.cm-em, 
+em, 
+i {
+  color: #98c379;             /* Changes italic text to soft green */
+  font-style: italic;
+}
