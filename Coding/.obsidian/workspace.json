@@ -11,15 +11,10 @@
             "id": "15d8e9dd545406ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevOps.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "DevOps"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -51,39 +46,8 @@
               "icon": "lucide-file",
               "title": "Ansible"
             }
-          },
-          {
-            "id": "d2e157b43dc9e9bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hello, World!.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hello, World!"
-            }
-          },
-          {
-            "id": "57f21ee18ad6807c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Machine Learning"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +67,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -136,13 +102,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6b0aa29b32c21ca4",
@@ -232,19 +196,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "57f21ee18ad6807c",
+  "active": "15d8e9dd545406ff",
   "lastOpenFiles": [
+    "Docker Composition.md",
+    "Fieldnotes.md",
     "Ansible.md",
-    "Machine Learning.md",
+    "Docker.md",
+    "Compose.yaml.md",
+    "Volume.md",
     "Hello, World!.md",
     "DevOps.md",
-    "Fieldnotes.md",
-    "Docker.md",
-    "Docker Composition.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Machine Learning.md",
     "Vim motions.md",
     "Untitled 3.base",
-    "Untitled 1.base",
-    "Untitled.base",
     "Untitled 2.base",
     "Webpack.md",
     "DOM Manipulation.md",
@@ -262,8 +228,6 @@
     "npm.md",
     "wepb.md",
     "HTML.md",
-    "Git.md",
-    "Vim.md",
     "Untitled.canvas"
   ]
 }
