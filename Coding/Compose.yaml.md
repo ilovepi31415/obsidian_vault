@@ -141,29 +141,9 @@ This upgrades the stack to use a dedicated database server, improving performanc
 name: fieldnotes
 
 services:
-  api:
-    image: gitlab.au-computing.org:5050/<project path>/api:1.0.0
-    platform: linux/amd64
-    env_file:
-      - .env
-      - jwt.env
-    volumes:
-      # Still used, but now ONLY for media uploads. The database moved to pgdata.
-      - data:/app/data 
-    networks:
-      - frontend
-      - backend
-    depends_on:
-      migrate:
-        condition: service_completed_successfully
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/readyz', timeout=2)"]
-      interval: 10s
-      timeout: 3s
-      retries: 3
-      start_period: 20s
-    restart: unless-stopped
 
+  ...
+  
   migrate:
     image: gitlab.au-computing.org:5050/<project path>/api:1.0.0
     platform: linux/amd64
@@ -180,17 +160,7 @@ services:
         condition: service_healthy
     command: alembic upgrade head
 
-  ui:
-    image: gitlab.au-computing.org:5050/<project path>/ui:1.0.0
-    platform: linux/amd64
-    ports:
-      - "${UI_PORT:-80}:8080"
-    networks:
-      - frontend
-    depends_on:
-      api:
-        condition: service_healthy
-    restart: unless-stopped
+  ...
 
   db:
     # NEW SERVICE: Dedicated PostgreSQL database server.

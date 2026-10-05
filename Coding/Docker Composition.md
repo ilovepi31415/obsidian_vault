@@ -9,7 +9,7 @@
 - **Volume (Named Volume):** A permanent storage space managed by Docker that lives _outside_ the container. Safe from container deletion. Used for database files and media uploads.
     
 - **Bind Mount:** A specific folder on your own laptop/computer that you link directly into a container. Great for passing in configuration scripts.
-    
+     
 - **Docker Compose:** A tool that lets you manage multiple containers, networks, and volumes at the same time using a single file (`compose.yml`).
     
 - **Service:** Docker Compose's word for a container setup (e.g., your `api`, your `ui`, your `db`).
@@ -57,7 +57,7 @@ Docker creates isolated networks for your containers. You can use this for secur
 #### 4. Verified Backups
 
 - Taking a backup (a "dump") isn't enough. A backup is only **verified** if you can do two things:
-    
+
     1. Restore it into a _completely empty_ database.
         
     2. Check the row counts of your tables afterward to ensure they perfectly match the original database.

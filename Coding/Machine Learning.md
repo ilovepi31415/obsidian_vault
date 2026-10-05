@@ -1,3 +1,6 @@
+
+## QuickLinks
+[[Perceptrons]]
 ## Syntax
 
 ### Data Inspection
